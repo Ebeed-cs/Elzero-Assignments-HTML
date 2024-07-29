@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get">
+        <p>
+          <p><label for="U.name">Username:</label></p>
+          <input type="text" id="U.name" minlength="5" maxlength="20" autofocus required>
+        </p>
+        <p>
+          <p><label for="email">Email:</label></p>
+          <input type="email" id="email" readonly value="o@o.com">
+        </p>
+        <p>
+          <p><label>skills:</label></p>
+            <input type="checkbox" checked name="programming-skills" id="check1" value="Problem Solving">
+            <label for="check1">Problem Solving</label>
+            <br>
+            <input type="checkbox" name="programming-skills" id="check2" value="Logical Thinking">
+            <label for="check2">Logical Thinking</label>
+            <br>
+            <input type="checkbox" name="programming-skills" id="check3" value="Advanced Search">
+            <label for="check3">Advanced Search</label>
+            <br>
+            <input type="checkbox" name="programming-skills" id="check4" value="Analysis">
+            <label for="check4">Analysis</label>
+            <br>
+            <input type="checkbox" name="programming-skills" id="check5" value="Planning">
+            <label for="check5">Planning</label>
+            <br>
+        </p>
+        <p>
+          <label>job:</label></p>
+            <input type="radio" checked name="your-job" id="radio1" value="Front-End Developer">
+            <label for="radio1">Front-End Developer</label>
+            <br>
+            <input type="radio" name="your-job" id="radio2" value="Back-End Developer">
+            <label for="radio2">Back-End Developer</label>
+            <br>
+            <input type="radio" name="your-job" id="radio3" value="Business Analyst">
+            <label for="radio3">Business Analyst</label>
+            <br>
+            <input type="radio" name="your-job" id="radio4" value="Project Manager">
+            <label for="radio4">Project Manager</label>
+            <br>
+            <input type="radio" name="your-job" id="radio5" value="Scrum Master">
+            <label for="radio5">Scrum Master</label>
+            <br>
+        </p>
+        <p>
+            <p><label for="table">Choose Book:</label></p>
+            <select name="lang" id="table">
+                <optgroup label="PHP"> 
+                    <option value="v5.0">v5.0</option>
+                    <option value="v7.0">v7.0</option>
+                    <option value="v8.0">v8.0</option>
+                </optgroup>
+                <optgroup label="Python"> 
+                    <option value="v2.0">v2.0</option>
+                    <option value="v3.0">v3.0</option>
+                    <option value="v3.9">v3.9</option>
+                </optgroup>
+            </select>
+        </p>
+            <textarea name="explain" placeholder="Write here why you want to learn programming"></textarea>
+        </p>
+        <p>
+          <input type="text" value="b92f1fc2fce391ad7af633723afd3055" hidden>
+        </p>
+        <input type="submit" value="Send">
+        <input type="reset" value="Empty">
+    </form>
+</body>
+</html>
+
+
+
